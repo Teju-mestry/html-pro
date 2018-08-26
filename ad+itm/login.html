@@ -1,0 +1,47 @@
+<html>
+    <head>
+    <link  rel="stylesheet" href="login.css"></head>
+    <style>
+    footer
+{
+    padding;1em;
+    color:white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    margin-top: 525px;
+}</style>
+    <body>
+          <div class="header">
+  <img src="C:\Users\AMAR\Desktop\New\images\itm2.jpg" alt="logo" />
+  <h1>Itm vocational university</h1>
+</div>
+<form>
+<div id="container">
+<label for"username">Username:</label>
+<input type ="text" id ="username" name"username">
+<label for"password">Password:</label>
+<input type="password" id="password" name="password">
+<button id="Login" onclick="check(this.form);" class="login-button">
+  Ad-Login</button>
+    </div>
+    </form>
+    <script language="javascript">
+function check(form)
+{
+   
+if(form.username.value == "Itmvu" && form.password.value == "itmvu@12345")
+{
+    window.open('home-1.html');  
+}
+else
+{
+	alert("Error Password or Username")
+	return false;
+}
+}
+</script>
+
+    </body>
+    <footer > copyright &copy; www.itm.ac.in</footer> 
+        </html>

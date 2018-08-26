@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+}
+.topnav
+{
+    float: right;
+    overflow:hidden;
+    width: 100%;
+    height: 50px;
+    background-color: #800080;
+    //padding-bottom: 50px;
+    
+}
+
+.topnav a {
+    vertical-align: middle;
+    float: inherit;
+    color: black;
+    text-align: center;
+    padding:10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+   background-color: #800080;   
+}
+
+.topnav :hover{
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+}
+
+.header img {
+  float: left;
+  width: 200px;
+  height: 100px;
+    
+  margin-left: 60px;
+    
+    padding-top: 20px;
+}
+.work img:nth-child(odd)
+{   border: solid; 
+    border-color: #800080;
+    margin: 20px;
+    border-width: 50px;
+    margin-top: 40;
+    width:175px;
+    height: 125;
+     
+}
+.work img:nth-child(even)
+{
+    border:solid;
+    border-color: black;
+}
+.work
+{
+    padding: 20px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+    text-align: center;
+    font-size: 90px;
+color:#4d004d;
+    
+}
+.sports{
+    background-color: aqua;
+    position:absolute;
+    width: 250px;
+    height: 100px;
+    margin: 100px 50px 50px 50px;
+    padding-top: 50px;
+}
+.management{
+    background-color: red;
+    position:absolute;
+    width: 250px;
+    height: 100px;
+    margin: px 550px 50px 50px;
+    padding-top: 50px;
+}
+footer
+{
+    padding;1em;
+    color:white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+}

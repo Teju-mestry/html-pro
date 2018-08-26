@@ -1,0 +1,153 @@
+<html>
+<title>ad+itm</title>
+<head>
+     <link  rel="stylesheet" href="login.css">
+    <style>
+    footer
+{
+    padding;1em;
+    color:white;
+    background-color: black;
+    clear: left;
+    text-align:center;
+    margin-top:250px;
+}
+a
+{   font-style:none; 
+    border:5px solid #800080;
+    padding:10px;
+    font-size:25px;      
+    margin-left: 580px;
+    text-align:center;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #800080;/*IE fallback*/
+    background-image: -wekit-gradient(linear,left top,left bottom,from(#800080),to(#990099));
+    background-image: -moz-linear-gradient(top left 90deg,#acd6ef 0%,#6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg,#acd6ef 0%,#6ec2e8 100%);
+    border-radius: 30px;
+    border: 5px solid  #660066;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.5);
+    cursor:pointer;    
+        }
+    .dropbtn
+        {
+            border:5px solid #800080;
+            padding:15px;
+            font-size:25px;
+            margin-bottom: 30px;
+            margin-left: 580px;
+    width: 150px;
+    height: 70px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #800080;/*IE fallback*/
+    background-image: -wekit-gradient(linear,left top,left bottom,from(#800080),to(#990099));
+    background-image: -moz-linear-gradient(top left 90deg,#acd6ef 0%,#6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg,#acd6ef 0%,#6ec2e8 100%);
+    border-radius: 30px;
+    border: 5px solid  #660066;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.5);
+    cursor:pointer;    
+        }
+
+        b{    
+             padding:10px;
+            font-size: :50px;
+            text-align:center;
+            vertical-align: middle;
+            margin:50px;
+            margin-left: 500px;
+        }
+        
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display:none;
+    position:absolute;
+    background-color: #f1f1f1;
+    min-width:180px;
+    overflow: auto;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    font-size: 
+}
+.dropdown-content a
+        {  
+         border:5px solid #800080;
+            padding:10px;
+            font-size:25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #800080;/*IE fallback*/
+    background-image: -wekit-gradient(linear,left top,left bottom,from(#800080),to(#990099));
+    background-image: -moz-linear-gradient(top left 90deg,#acd6ef 0%,#6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg,#acd6ef 0%,#6ec2e8 100%);
+    border-radius: 30px;
+    border: 5px solid  #660066;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.5);
+    cursor:pointer;    
+        }
+            
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+    </style>
+</head>
+<body>
+          <div class="header">
+  <img src="C:\Users\AMAR\Desktop\New\images\itm2.jpg" alt="logo" />
+  <h1>Itm vocational university</h1>
+</div>
+    
+    <a href="login.html">Ad-Login</a><br>
+        <b>OR</b><br>
+        <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Register</button>
+  <div id="myDropdown" class="dropdown-content">
+   <a href="fac-registration.html">facultyregistartion</a>
+   <a href="stu-registration.html">studentregistartion</a>
+  </div></div><br>
+    <b>OR</b><br>
+    <a href="sign_in.html">Sign In</a>
+
+<script>
+    
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+    
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+           
+</body>
+    <footer > copyright &copy; www.itm.ac.in</footer> 
+</html>
